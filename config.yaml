@@ -1,0 +1,22 @@
+params:
+  epochs: 1
+  batch_size: 32
+  num_classes: 1
+  loss_function: binary_crossentropy
+  metrics: accuracy
+  optimizer: adam
+  validation_datasize: 20
+  test_datasize: 20
+  train_datasize: 60
+
+
+artifacts:
+  artifacts_dir: artifacts
+  model_dr: models
+  plots_dir: plots
+  checkpoint_dir: model_checkpoints
+
+logs:
+  logs_dir: logs
+  general_logs: general
+  tensorboard_logs: tensorboard_logs
